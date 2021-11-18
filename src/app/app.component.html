@@ -1,5 +1,10 @@
+<router-outlet></router-outlet>
+
 <input type="text" [(ngModel)]="title">
 {{ title }}
+
+<input type="text" [(ngModel)]="power">
+{{ power | exponential }}
 
 <div *ngIf="title === 'nicolas'">
     este es un nicolas
@@ -30,6 +35,7 @@
     </li>
 </ul>
 
-<div *ngFor="let product of products">
-    <app-product (productClicked)="clickProduct($event)" [product]="product"></app-product>
+<div class="products">
+    <app-product *ngFor="let product of products" (productClicked)="clickProduct($event)" [product]="product">
+    </app-product>
 </div>
