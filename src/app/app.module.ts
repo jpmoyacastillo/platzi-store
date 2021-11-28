@@ -10,18 +10,11 @@ import { AppComponent } from './app.component';
 import { CartComponent } from './cart/cart.component';
 import { LayoutComponent } from './layout/layout.component';
 
-import { ContactComponent } from './contact/contact.component';
-import { DemoComponent } from './demo/demo.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-
 
 @NgModule({
   declarations: [
     AppComponent,
     CartComponent,
-    ContactComponent,
-    DemoComponent,
-    PageNotFoundComponent,
     LayoutComponent
   ],
   imports: [
