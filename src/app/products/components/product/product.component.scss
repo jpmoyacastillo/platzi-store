@@ -1,4 +1,4 @@
-$platzi-color: #71AD29;
+$primary: #71AD29;
 
 :host {
     border-radius: 10px;
@@ -34,8 +34,8 @@ img {
 
 button {
     color: white;
-    background-color: $platzi-color;
-    border-radius: 10px;
-    border-color: $platzi-color;
-    padding:8px;
+    background-color: $primary;
+    // border-radius: 10px;
+    // border-color: $platzi-color;
+    // padding:8px;
 }
